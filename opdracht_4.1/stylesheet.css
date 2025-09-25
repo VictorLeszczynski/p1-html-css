@@ -1,0 +1,34 @@
+h2 {
+    font-size: 56px;
+    color: #9000ff;
+    font-weight: bold;
+}
+p {
+    font-size: 28px;
+    color: #0d0303;
+}
+.paragraph1 {
+    font-weight: bold;
+}
+a {
+    color: #7272dd;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'my font', sans-serif;
+    src: url(/fonts/ftltlt-webfont.woff2) format('woff2'),
+         url(/fonts/ftltlt-webfont.woff) format('woff');
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}
+
