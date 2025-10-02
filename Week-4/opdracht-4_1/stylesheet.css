@@ -3,24 +3,22 @@ h2 {
     color: #9000ff;
     font-weight: bold;
 }
-p {
+p:first-of-type {
+    font-weight: bold;
     font-size: 28px;
     color: #0d0303;
-}
-.paragraph1 {
-    font-weight: bold;
 }
 a {
     color: #7272dd;
     text-decoration: none;
 }
 @font-face {
-    font-family: 'my font', sans-serif;
+    font-family: 'ftltlt' ;
     src: url(/fonts/ftltlt-webfont.woff2) format('woff2'),
          url(/fonts/ftltlt-webfont.woff) format('woff');
 }
 body {
-  font-family: 'MyFont', sans-serif;
+  font-family: 'ftltlt', sans-serif;
 }
 img {
     width: 400px;
