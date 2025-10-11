@@ -1,0 +1,31 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header{
+    padding: 0px;
+    background-color: #7272dd;
+    color: white;
+    display: flex;
+}
+
+.headerlist{
+  list-style-type: none;
+  display: flex;
+  gap: 200px;
+}
+.headerlist li a{
+    text-decoration: none;
+    color: white;
+}
+.herosection{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color : white;
+
+}
+.herotext{
+    margin-left: 165px;
+}
