@@ -1,0 +1,1 @@
+dit project gaat over de introductie tot git en github zodat we deze kunnen gebruiken en onze dingen nooit kwijt raaken en kunnen krijgen op elke device
