@@ -241,8 +241,6 @@ height: 600px;
     height: 70px;
     background-color: #7272dd;
     border-radius: 10px;
-
-
     text-align: center;
     line-height: 30px;
     font-family: ftltlt;
@@ -250,6 +248,7 @@ height: 600px;
     color: white;
     left: 25px;
     bottom: 30px;
+    border-color: white;
 }
 /* index-970x250.css */
 .stage {  
@@ -260,12 +259,11 @@ height: 600px;
    -moz-box-sizing: border-box;
    box-sizing: border-box;    
    overflow: hidden;    
-   background-color: black;
-    
+   background-color: black;   
 }
 .bannerSize{ 
-width: 300px; 
-height: 600px; 
+width: 970px; 
+height: 250px; 
 }
 .blocks {
    position:absolute;
@@ -304,19 +302,17 @@ height: 600px;
     position: absolute;
     width: 400px;
     height: 400px;
-    bottom: -250px;
-    right: -50px;
+    bottom: -140px;
+    right: -160px;
     background-color: #7272dd;
     border-radius: 50%;
-
 }
 .sim3{
     position:absolute;
     width: 120px;
     height: auto;
-    left: 55px;
-    top: 190px;
-    rotate: 90deg;
+    left: 360px;
+    top: 40px;
 }
 
 .text31{
@@ -352,24 +348,23 @@ height: 600px;
 .text34{
     position: absolute;
     color: white;
-    top: 340px;
-    left: 20px;
+    top: 120px;
+    left: 510px;
     font-family: ftltlt;
     font-size: 20px;   
 }
 .btn3{
     position: absolute;
-    width: 240px;
-    height: 70px;
+    width: 140px;
+    height: 110px;
     background-color: #7272dd;
     border-radius: 10px;
-
-
     text-align: center;
     line-height: 30px;
     font-family: ftltlt;
     font-size: 25px;   
     color: white;
-    left: 25px;
-    bottom: 30px;
+    left: 780px;
+    bottom: 60px;
+    border-color: white;
 }
