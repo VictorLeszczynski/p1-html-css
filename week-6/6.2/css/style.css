@@ -1,0 +1,25 @@
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+  width: 200px;
+  height: 200px;
+}
+.block1 {
+  background-color: blue;
+}
+.block2 {
+  background-color: black;
+}
+.block3 {
+  background-color: red;
+}
+.block4 {
+  background-color: green;
+}
