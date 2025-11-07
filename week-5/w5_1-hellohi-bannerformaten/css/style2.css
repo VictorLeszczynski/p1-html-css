@@ -1,0 +1,370 @@
+
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+   background-color: black;
+    
+}
+
+@font-face {
+    font-family: ftltlt;
+    src: url(/font/ftltlt-webfont.woff);
+}
+
+body{
+
+    font-family: ftltlt;
+}
+
+.bannerSize300x250{ 
+width: 300px; 
+height: 250px; 
+}
+.blocks {
+   position:absolute;
+   width: 100px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.block01,
+.block02,
+.block03{
+    width: 25px;
+    height: 10px;
+    top: 0px;
+
+}
+.block01{
+    position: absolute;
+    background-color: #9000ff;
+}
+
+.block02{
+    background-color: #55559f;
+    position:absolute;
+    left : 30px;
+}
+.block03{
+    position: absolute;
+    background-color: #b0b0eb;
+    left: 60px;
+}
+
+.shape{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -330px;
+    right: -170px;
+    background-color: #7272dd;
+    border-radius: 50%;
+
+}
+.sim{
+    position:absolute;
+    width: 70px;
+    height: auto;
+    left: 205px;
+    top: 20px;
+}
+
+.text{
+    position: absolute;
+    color: white;
+    top: 15px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 25px;   
+}
+.hi{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 140px;
+    top: 40px;
+}
+.text2{
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 15px;   
+}
+.text3{
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 13px;   
+}
+.text4{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 14px;   
+}
+.btn{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: #7272dd;
+    border-radius: 10px;
+    bottom: 10px;
+    left: 170px;
+    text-align: center;
+    line-height: 30px;
+    font-family: ftltlt;
+    font-size: 14px;   
+    color: white;
+}
+/* index-300x600.css */
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+   background-color: black;
+    
+}
+.bannerSize300x600{ 
+width: 300px; 
+height: 600px; 
+}
+.blocks {
+   position:absolute;
+   width: 100px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.block01,
+.block02,
+.block03{
+    width: 25px;
+    height: 10px;
+    top: 0px;
+
+}
+.block01{
+    position: absolute;
+    background-color: #9000ff;
+}
+
+.block02{
+    background-color: #55559f;
+    position:absolute;
+    left : 30px;
+}
+.block03{
+    position: absolute;
+    background-color: #b0b0eb;
+    left: 60px;
+}
+
+.shape2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -250px;
+    right: -50px;
+    background-color: #7272dd;
+    border-radius: 50%;
+
+}
+.sim2{
+    position:absolute;
+    width: 120px;
+    height: auto;
+    left: 55px;
+    top: 190px;
+    rotate: 90deg;
+}
+
+.text21{
+    position: absolute;
+    color: white;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 35px;   
+}
+.hi2{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 190px;
+    top: 50px;
+}
+.text22{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 23px;   
+}
+.text23{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 20px;   
+}
+.text24{
+    position: absolute;
+    color: white;
+    top: 340px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 20px;   
+}
+.btn2{
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    background-color: #7272dd;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-family: ftltlt;
+    font-size: 25px;   
+    color: white;
+    left: 25px;
+    bottom: 30px;
+    border-color: white;
+}
+/* index-970x250.css */
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+   background-color: black;   
+}
+.bannerSize970x250{ 
+width: 970px; 
+height: 250px; 
+}
+.blocks {
+   position:absolute;
+   width: 100px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.block01,
+.block02,
+.block03{
+    width: 25px;
+    height: 10px;
+    top: 0px;
+
+}
+.block01{
+    position: absolute;
+    background-color: #9000ff;
+}
+
+.block02{
+    background-color: #55559f;
+    position:absolute;
+    left : 30px;
+}
+.block03{
+    position: absolute;
+    background-color: #b0b0eb;
+    left: 60px;
+}
+
+.shape3{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -140px;
+    right: -160px;
+    background-color: #7272dd;
+    border-radius: 50%;
+}
+.sim3{
+    position:absolute;
+    width: 120px;
+    height: auto;
+    left: 360px;
+    top: 40px;
+}
+
+.text31{
+    position: absolute;
+    color: white;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 35px;   
+}
+.hi3{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 190px;
+    top: 50px;
+}
+.text32{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 23px;   
+}
+.text33{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 20px;
+    font-family: ftltlt;
+    font-size: 20px;   
+}
+.text34{
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 510px;
+    font-family: ftltlt;
+    font-size: 20px;   
+}
+.btn3{
+    position: absolute;
+    width: 140px;
+    height: 110px;
+    background-color: #7272dd;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-family: ftltlt;
+    font-size: 25px;   
+    color: white;
+    left: 780px;
+    bottom: 60px;
+    border-color: white;
+}

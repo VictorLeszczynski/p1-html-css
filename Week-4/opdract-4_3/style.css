@@ -1,15 +1,12 @@
-
-body {
-  margin: 0;
-  padding: 0;
+* {
+margin: 0;
+padding: 0;
 }
 header{
-    padding: 0px;
     background-color: #7272dd;
     color: white;
     display: flex;
 }
-
 .headerlist{
   list-style-type: none;
   display: flex;
@@ -21,11 +18,41 @@ header{
 }
 .herosection{
     background-color: black;
-    margin: 0;
-    padding: 0;
     color : white;
+    padding: 125px;
+}
+.hallohi{
+    font-size: 50px;
+}
+.navbar{
+    padding: 20px;
+    margin-left: 100px;
+}
+.blocks {
+   position:absolute;
+   width: 100px;
+    height: 20px;
+}
+.block01,
+.block02,
+.block03{
+    width: 25px;
+    height: 10px;
+    top: 0px;
 
 }
-.herotext{
-    margin-left: 165px;
+.block01{
+    position: absolute;
+    background-color: #9000ff;
+}
+
+.block02{
+    background-color: #55559f;
+    position:absolute;
+    left : 30px;
+}
+.block03{
+    position: absolute;
+    background-color: #b0b0eb;
+    left: 60px;
 }

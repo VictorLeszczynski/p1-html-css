@@ -1,0 +1,21 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    color: blue;
+
+}
+
+.logo, .login{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+  
+}
